@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    background-color: black;
+    width: 400px;
+}
+
+label{
+    color: red
+}
+
+#Fname{
+    background-color: rgb(0, 255, 55);
+}
+
+.Country{
+    background-color: crimson;
+}
+
+*{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h1,p{
+    font-size: xx-large;
+    color: red;
+}
+
+form{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+#Finish{
+    color: darkgreen;
+    font-weight: bold;
+}
+/*dddddhbfhbshfbshbfvshbhfbhsdbs*/
