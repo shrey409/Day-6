@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation Form</title>
+</head>
+<body>
+    <center><h1>Form to Create a New Account</h1></center>
+    <center>
+        <form>
+            <fieldset>
+                <legend>Form Details</legend>
+
+                <label>What is your first name?</label><br>
+                <input type="text" id="Fname" name="Fname" required><br><br>
+
+                <label>What is your last name?</label><br>
+                <input type="text" id="Lname" name="Lname" required><br><br>
+
+                <label>What is your email address?</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label>Create a password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label>Phone number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. +123456789"><br><br>
+
+                <label>What is your gender?</label><br>
+                <input type="radio" id="Male" name="gender" value="Male"> Male
+                <input type="radio" id="Female" name="gender" value="Female"> Female
+                <input type="radio" id="Other" name="gender" value="Other"> Other<br><br>
+
+                <label>What is your favourite food?</label><br>
+                <input type="checkbox" id="pizza" name="food" value="Pizza"> Pizza
+                <input type="checkbox" id="pasta" name="food" value="Pasta"> Pasta
+                <input type="checkbox" id="dosa" name="food" value="Dosa"> Dosa
+                <input type="checkbox" id="cake" name="food" value="Cake"> Cake<br><br>
+
+                <label>What country are you from?</label><br>
+                <select name="Country" id="Country">
+                    <option value="">--Select--</option>
+                    <option value="Greece">Greece</option>
+                    <option value="England">England</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Australia">Australia</option>
+                    <option value="US">US</option>
+                    <option value="Russia">Russia</option>
+                </select><br><br>
+
+                <label>What is your education level?</label><br>
+                <select name="education" id="education">
+                    <option value="">--Select--</option>
+                    <option value="High School">High School</option>
+                    <option value="Associate">Associate Degree</option>
+                    <option value="Bachelor">Bachelor's Degree</option>
+                    <option value="Master">Master's Degree</option>
+                    <option value="PhD">PhD</option>
+                </select><br><br>
+
+                <label>What year were you born?</label><br>
+                <input type="date" id="birthday" name="birthday"><br><br>
+
+                <label>How satisfied are you with our platform?</label><br>
+                <input type="range" id="satisfaction" name="satisfaction" min="0" max="10"><br><br>
+
+                <label>Upload your profile picture:</label><br>
+                <input type="file" id="profilePic" name="profilePic" accept="image/*"><br><br>
+
+                <label>Your personal website (if any):</label><br>
+                <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+
+                <input type="submit" value="Submit" id="Finish">
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
